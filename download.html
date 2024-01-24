@@ -12,8 +12,9 @@ body  {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
-	background-color: #181818;
-	background-image: url(images/bg_main1.png);
+	background-color: #000000;
+	background-image: url(dll_dev/images/Pro-C11x4.png);
+	background-repeat: repeat-y;
 }
 
 /* Tips for this Hybrid layout
@@ -114,39 +115,19 @@ a:active {
 	text-decoration: none;
 	color: #99FF33;
 }
-.style2 {
-	font-size: xx-large;
-	font-weight: bold;
-	color: #33FF99;
-}
-.style3 {
-	color: #CCCCCC;
-	font-size: large;
-}
-.style5 {
-	color: #666666;
-	font-size: 18px;
-}
-.style7 {
-	font-size: 10px;
-	color: #666666;
-}
-.style8 {color: #99FF00}
-.style9 {
-	color: #999999
-}
 .style10 {font-size: 14px}
-.style12 {font-size: 14px; color: #FFFFFF; }
-.style34 {font-size: 14px; color: #999999; }
-.style13 {
+.style35 {font-size: 14px; font-weight: bold; }
+.style85 {font-size: 16px; font-weight: bold; color: #00FFCC; }
+.style90 {	font-size: 14px;
+	color: #FF0000;
+}
+.style92 {
 	font-size: 16px;
 	font-weight: bold;
+	color: #00CCCC;
 }
-.style35 {font-size: 14px; font-weight: bold; }
-.style14 {font-size: 24px;
-	font-weight: bold;
-	color: #666666;
-}
+.style93 {color: #FF0000}
+.style95 {font-size: 14px; color: #0099CC; }
 --> 
 </style><!--[if IE]>
 <style type="text/css"> 
@@ -155,56 +136,90 @@ a:active {
 .thrColHybHdr #mainContent { zoom: 1; padding-top: 15px; }
 /* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
 </style>
-<![endif]--></head>
+<![endif]-->
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-<body class="thrColHybHdr">
-<table width="1127" height="732" border="0" cellspacing="0">
-  <tr>
-    <th width="54" height="77" scope="col">&nbsp;</th>
-    <th width="242" background="images/menu_back1.png" bgcolor="303030" scope="col"><span class="style2"><a href="main.html" target="_self">Project-C</a></span></th>
-    <th width="243" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="242" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="274" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="60" scope="col">&nbsp;</th>
-  </tr>
-  <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" bgcolor="222222"><blockquote>
-      <blockquote>
-        <blockquote>
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body class="thrColHybHdr" onload="MM_preloadImages('images/dl2.png')">
+<p>&nbsp;</p>
+<div align="center">
+  <table width="798" height="25" border="0" align="center" bordercolor="#000000">
+    <tr>
+      <th width="13" height="21" scope="col">&nbsp;</th>
+      <th width="775" scope="col"><blockquote>
+        <div align="left"><span class="style85">[Disclaimer]</span></div>
+      </blockquote></th>
+    </tr>
+  </table>
+  <table width="798" height="674" border="0" align="center" bordercolor="#000000">
+    <tr>
+      <th width="13" height="670" scope="col">&nbsp;</th>
+      <th width="775" scope="col"><blockquote>
+        <div align="left">
           <blockquote>
             <blockquote>
               <blockquote>
-                <p align="justify" class="style35">&nbsp;</p>
-                <p align="justify" class="style35">[Disclaimer]</p>
-                <p align="justify"><span class="style10">The software and documentation are provided &quot;AS IS&quot; without warranty of any kind. To the maximum extent permitted by applicable law, Project C Team further disclaims all warranties, including without limitation any implied warranties of merchantability, fitness for a particular purpose, and non infringement. The entire risk arising out of the use or performance of the software and documentation remains with you. To the maximum extent permitted by applicable law, in no event shall Project C Team be liable for any consequential, incidental, direct, indirect, special, punitive, or other damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of this agreement or the use of or inability to use the product, even if Project C Team has been advised of the possibility of such damages.</span><br />
-                </p>
+                <p align="center" class="style35">&nbsp;</p>
+                </blockquote>
+            </blockquote>
+          </blockquote>
+          <p align="justify"><span class="style95">The software and documentation are provided &quot;AS IS&quot; without warranty of any kind. To the maximum extent permitted by applicable law, Project C Team further disclaims all warranties, including without limitation any implied warranties of merchantability, fitness for a particular purpose, and non infringement. The entire risk arising out of the use or performance of the software and documentation remains with you. To the maximum extent permitted by applicable law, in no event shall Project C Team be liable for any consequential, incidental, direct, indirect, special, punitive, or other damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of this agreement or the use of or inability to use the product, even if Project C Team has been advised of the possibility of such damages.</span><br />
+            </p>
+          <blockquote>
+            <blockquote>
+              <div align="center">
+                <p class="style92">Project-C is compatible with these O/S's</p>
+                <p> <img src="images/os.png" width="197" height="68" /></p>
+                <p><a href="main.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Download','','images/dl2.png',1)"><img src="images/dl1.png" alt="" name="Download" width="175" height="75" border="0" id="Download" /></a></p>
+              </div>
+              <blockquote>
+                <p align="center" class="style90">We're sorry, Project-C is  in closed beta test phase. There is currently no public download of the client. :(</p>
               </blockquote>
             </blockquote>
           </blockquote>
-          <p align="center" class="style14">&nbsp;</p>
-          <p align="center" class="style14"><a href="download.html" target="_self"><img src="images/download.png" width="220" height="61" alt="" /></a></p>
-          <p align="center" class="style12">We're sorry, Project-C is  in beta test phase. There is currently no public download of the client. :(</p>
-          <p align="center" class="style12">Please try back again later!</p>
-          <p align="center">&nbsp;</p>
-          <p align="center">&nbsp;</p>
+          <p align="center" class="style85 style87 style93">Please try back again later!</p>
+          <p align="center" class="style10"></p>
           <p align="center" class="style10">&nbsp;</p>
-          <p align="center" class="style10">&nbsp;</p>
-        </blockquote>
-        </blockquote>
-    </blockquote>    </td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" bgcolor="222222">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" background="images/menu_back1.png" bgcolor="303030"><div align="right" class="style7 style9">Project-C Team 2024</div></td>
-    <td>&nbsp;</td>
-  </tr>
-</table>
+          <blockquote>
+            <blockquote>&nbsp;</blockquote>
+          </blockquote>
+          </div>
+          </blockquote></th>
+    </tr>
+  </table>
+  <p align="center">&nbsp;</p>
+  <blockquote><blockquote>
+          <div id="games"></div>
+    </blockquote>
+  </blockquote>
+  <blockquote><blockquote>&nbsp;</blockquote>
+  </blockquote>
+  <p>&nbsp;</p>
+</div>
+<p align="justify" class="style35"></p>
 </body>
 </html>

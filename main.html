@@ -12,8 +12,9 @@ body  {
 	padding: 0;
 	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
 	color: #000000;
-	background-color: #181818;
-	background-image: url(images/bg_main1.png);
+	background-color: #000000;
+	background-image: url(dll_dev/images/Pro-C11x4.png);
+	background-repeat: repeat-y;
 }
 
 /* Tips for this Hybrid layout
@@ -114,35 +115,46 @@ a:active {
 	text-decoration: none;
 	color: #99FF33;
 }
-.style2 {
-	font-size: xx-large;
-	font-weight: bold;
-	color: #33FF99;
-}
-.style3 {
-	color: #CCCCCC;
-	font-size: large;
-}
-.style5 {
-	color: #666666;
-	font-size: 18px;
-}
-.style7 {
-	font-size: 10px;
-	color: #666666;
-}
-.style8 {color: #99FF00}
 .style9 {
 	color: #999999
 }
 .style10 {font-size: 14px}
-.style12 {font-size: 14px; color: #FFFFFF; }
-.style34 {font-size: 14px; color: #999999; }
-.style13 {
-	font-size: 16px;
+.style35 {font-size: 14px; font-weight: bold; }
+.style58 {color: #999999; font-size: 14px; }
+.style60 {
+	font-size: 24px;
 	font-weight: bold;
 }
-.style35 {font-size: 14px; font-weight: bold; }
+.style65 {
+	font-size: 24px;
+	color: #CCCCCC;
+}
+.style12 {font-size: 14px; color: #FFFFFF; }
+.style13 {	font-size: 16px;
+	font-weight: bold;
+}
+.style79 {
+	font-size: 12px;
+	font-style: italic;
+	color: #00CCCC;
+}
+.style81 {
+	color: #0099CC;
+	font-weight: bold;
+	font-size: 18px;
+}
+.style83 {
+	color: #0099CC;
+	font-size: 14px;
+}
+.style85 {font-size: 16px; font-weight: bold; color: #00FFCC; }
+.style86 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #00FFCC;
+}
+.style88 {font-size: 18px}
+.style89 {font-size: 18px; font-weight: bold; color: #00FFCC; }
 --> 
 </style><!--[if IE]>
 <style type="text/css"> 
@@ -151,398 +163,476 @@ a:active {
 .thrColHybHdr #mainContent { zoom: 1; padding-top: 15px; }
 /* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
 </style>
-<![endif]--></head>
+<![endif]-->
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
 
-<body class="thrColHybHdr">
-<table width="1127" height="732" border="0" cellspacing="0">
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body class="thrColHybHdr" onload="MM_preloadImages('images/dl2.png')">
+<p>&nbsp;</p>
+<table width="741" height="138" border="0" align="center" cellspacing="0" bordercolor="#000000">
   <tr>
-    <th width="54" height="77" scope="col">&nbsp;</th>
-    <th width="242" background="images/menu_back1.png" bgcolor="303030" scope="col"><span class="style2"><a href="main.html" target="_self">Project-C</a></span></th>
-    <th width="243" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="242" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="274" background="images/menu_back1.png" bgcolor="303030" scope="col">&nbsp;</th>
-    <th width="60" scope="col">&nbsp;</th>
+    <th width="7" rowspan="3" scope="col">&nbsp;</th>
+    <th width="232" rowspan="3" scope="col"><p align="left" class="style60 style65"><img src="dll_dev/images/Pro-C7.png" width="163" height="126" /></p>
+    <p align="right" class="style79">~ The next step in OG gaming!</p></th>
+    <th width="2" height="74" scope="col">&nbsp;</th>
+    <th width="181" class="style86" scope="col"><a href="#games" target="_self" class="style89">Supported Games</a></th>
+    <th width="2" class="style86" scope="col">&nbsp;</th>
+    <th width="2" class="style86" scope="col">&nbsp;</th>
+    <th width="115" class="style86" scope="col"><a href="#gamesetup" target="_self" class="style89">Game Setup</a></th>
+    <th width="2" class="style86" scope="col">&nbsp;</th>
+    <th width="2" class="style86" scope="col">&nbsp;</th>
+    <th width="176" scope="col"><span class="style89"><a href="#servicerules" target="_self" class="style89">Service Rules</a></span></th>
   </tr>
   <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" bgcolor="222222"><blockquote>
-      <blockquote>
-        <blockquote>
-          <p align="center">&nbsp;</p>
-          <p align="center"><strong>Not able to play those old games online? Then you've come to the right place! </strong></p>
-          <p align="center"><img src="images/client_01.png" alt="" width="553" height="347" /></p>
-          <blockquote>
-            <blockquote>
-              <p align="left"><span class="style10"><strong>Project-C</strong> is a new lobby based interface which allows you to play all those good old games online, as well as chat, send messages to your buddies, and transfer files.</span></p>
-              <p align="left" class="style13">&nbsp;</p>
-              <p align="center" class="style13">Project-C supports dozens of games, have a look:</p>
-            </blockquote>
-          </blockquote>
-          <div align="center">
-            <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/doom.jpg" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/doom2.jpg" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/heretic.jpg" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/hexen.jpg" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Doom</td>
-                  <td background="images/bg11.png" class="style12">Doom2</td>
-                  <td background="images/bg12.png" class="style12">Heretic</td>
-                  <td background="images/bg11.png" class="style12">Hexen</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Doom.wad</td>
-                  <td background="images/bg11.png" class="style12">Doom2.wad</td>
-                  <td background="images/bg12.png" class="style12">Herertic.wad</td>
-                  <td background="images/bg11.png" class="style12">Hexen.wad</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Engine:</td>
-                  <td background="images/bg11.png" class="style12">Engine:</td>
-                  <td background="images/bg12.png" class="style12">Engine:</td>
-                  <td background="images/bg11.png" class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a> <a href="https://www.chocolate-doom.org/wiki/index.php/Downloads" target="_blank">Chcololate-Doom,</a> <a href="https://odamex.net/" target="_blank">Odamex</a></td>
-                  <td background="images/bg11.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a> <a href="https://www.chocolate-doom.org/wiki/index.php/Downloads" target="_blank">Chcololate-Doom,</a> <a href="https://odamex.net/" target="_blank">Odamex</a></td>
-                  <td background="images/bg12.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a><a href="https://odamex.net/" target="_blank">Odamex</a></td>
-                  <td background="images/bg11.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a><a href="https://odamex.net/" target="_blank">Odamex</a></td>
-                </tr>
-                <tr>
-                  <td height="8" class="style10 style33">Port#:</td>
-                  <td class="style10 style33">Port#:</td>
-                  <td class="style10 style33">Port#:</td>
-                  <td class="style10 style33">Port#:</td>
-                </tr>
-                <tr>
-                  <td height="9"><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP</p>
-                    <p class="style10 style33">Zandronum 10666 UDP</p>
-                    <p class="style10 style33">Chcololate Doom 5232UDP</p>
-                  <p class="style10 style33">Odamex 10667 UDP</p></td>
-                  <td><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP </p>
-                    <p class="style10 style33">Zandronum 10666 UDP</p>
-                    <p class="style10 style33">Chcololate Doom 5232 UDP </p>
-                  <p class="style10 style33">Odamex 10667 UDP</p></td>
-                  <td><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP </p>
-                    <p class="style10 style33">Zandronum 10666 UDP</p>
-                  <p class="style10 style33">Odamex 10667 UDP</p></td>
-                  <td><p class="style10 style33">ZDoom, Gzdoom 5029 UDP </p>
-                    <p class="style10 style33">Zandronum 10666 UDP</p>
-                  <p class="style10 style33">Odamex 10667 UDP</p></td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-              <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th width="110" background="images/bg9.png" class="style12" scope="col"><img src="images/quake.jpg" width="110" height="150" /></th>
-                  <th width="110" background="images/bg10.png" class="style12" scope="col"><img src="images/q2.gif" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/q3.gif" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/quake_4.jpg" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Game:</td>
-                  <td background="images/bg10.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Quake</td>
-                  <td background="images/bg10.png" class="style12">Quake2 </td>
-                  <td background="images/bg11.png" class="style12">Quake3</td>
-                  <td background="images/bg12.png" class="style12">Quake4</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Requirements:</td>
-                  <td background="images/bg10.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Quake</td>
-                  <td background="images/bg10.png" class="style12">Quake2</td>
-                  <td background="images/bg11.png" class="style12">Quake3</td>
-                  <td background="images/bg12.png" class="style12">Quake4</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Engine:</td>
-                  <td background="images/bg10.png" class="style12">Engine:</td>
-                  <td background="images/bg11.png" class="style12">Engine:</td>
-                  <td background="images/bg12.png" class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12"><a href="https://hemebond.gitlab.io/darkplaces-www/" target="_blank">Darkplaces.exe</a></td>
-                  <td background="images/bg10.png" class="style12"><a href="https://bethesda.net/en/game/quakeii" target="_blank">Quake2.exe</a></td>
-                  <td background="images/bg11.png" class="style12"><p><a href="https://store.steampowered.com/app/2200/Quake_III_Arena/" target="_blank">Quake3.exe</a></p>
-                    <p><a href="https://archive.org/details/QuakeIiiArenaDemo" target="_blank">Quake3Demo.exe</a></p></td>
-                  <td background="images/bg12.png" class="style12"><p><a href="https://store.steampowered.com/agecheck/app/2210/" target="_blank">Quake4.exe</a></p>
-                    <p><a href="https://www.moddb.com/games/quake-4/downloads/quake-4-demo" target="_blank">Quake4Demo.exe</a></p></td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style34">Port#:</td>
-                  <td background="images/bg10.png" class="style34">Port#:</td>
-                  <td background="images/bg11.png" class="style34">Port#:</td>
-                  <td background="images/bg12.png" class="style34">Port#: </td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style34">26000 UDP</td>
-                  <td background="images/bg10.png" class="style34">27910 UDP</td>
-                  <td background="images/bg11.png" class="style34">27950 UDP</td>
-                  <td background="images/bg12.png" class="style34">27650 UDP and TCP/IP for VoIP</td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-              <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th width="110" background="images/bg9.png" class="style12" scope="col"><img src="images/wolfet.jpg" width="110" height="150" /></th>
-                  <th width="110" background="images/bg10.png" class="style12" scope="col"><img src="images/doom3.gif" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/doom3OC.png" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/doom3RoE.jpg" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Game:</td>
-                  <td background="images/bg10.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Wolfenstein - Enemy Territory</td>
-                  <td background="images/bg10.png" class="style12">Doom3</td>
-                  <td background="images/bg11.png" class="style12">Doom3 - Opencoop</td>
-                  <td background="images/bg12.png" class="style12">Doom3 - RoE</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Requirements:</td>
-                  <td background="images/bg10.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Wolf-ET</td>
-                  <td background="images/bg10.png" class="style12">Doom3 Base</td>
-                  <td background="images/bg11.png" class="style12">Doom3 Opencoop Mod</td>
-                  <td background="images/bg12.png" class="style12"><p>Doom3 D3xp Expansion</p></td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12">Engine:</td>
-                  <td background="images/bg10.png" class="style12">Engine:</td>
-                  <td background="images/bg11.png" class="style12">Engine:</td>
-                  <td background="images/bg12.png" class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style12"><a href="https://www.splashdamage.com/games/wolfenstein-enemy-territory/" target="_blank">ET.exe</a></td>
-                  <td background="images/bg10.png" class="style12"><p><a href="https://store.steampowered.com/app/208200/DOOM_3/" target="_blank">Doom3.exe</a></p></td>
-                  <td background="images/bg11.png" class="style12"><a href="https://www.moddb.com/mods/opencoop" target="_blank">Doom3/OC</a></td>
-                  <td background="images/bg12.png" class="style12"><a href="https://store.steampowered.com/app/9070/DOOM_3_Resurrection_of_Evil/" target="_blank">Doom3.exe</a></td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style34">Port#:</td>
-                  <td background="images/bg10.png" class="style34">Port#:</td>
-                  <td background="images/bg11.png" class="style34">Port#:</td>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg9.png" class="style34">27960 UDP</td>
-                  <td background="images/bg10.png" class="style34">27666 UDP</td>
-                  <td background="images/bg11.png" class="style34">27666 UDP</td>
-                  <td background="images/bg12.png" class="style34">27666 UDP</td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-              <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th background="images/bg12.png" class="style12" scope="col"><img src="images/utGOTY.jpg" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/ut2004.jpg" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/halo.jpg" alt="" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Unreal Tournament</td>
-                  <td background="images/bg11.png" class="style12">UT2004</td>
-                  <td background="images/bg12.png" class="style12">Halo Combat Evolved</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">UnrealTournament</td>
-                  <td background="images/bg11.png" class="style12">UT2004</td>
-                  <td background="images/bg12.png" class="style12">Halo and Dedicated Server</td>
-                </tr>
-                <tr>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td class="style12"><a href="https://steamcommunity.com/app/13240" target="_blank">UnrealTournament / UCC.exe</a></td>
-                  <td><p class="style12"><a href="https://steamcommunity.com/app/13230#scrollTop=88" target="_blank" class="style9">UT2004.exe / UCC.exe</a></p></td>
-                  <td class="style12"><a href="https://store.steampowered.com/app/1064221/Halo_Combat_Evolved_Anniversary/" target="_blank" class="style9">Halo.exe / </a><a href="https://ftp.zx.net.nz/pub/Game-Files/Halo/Dedicated-Server/" target="_blank">HaloDED</a></td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                  <td background="images/bg11.png" class="style34">Port#:</td>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">7777 UDP</td>
-                  <td background="images/bg11.png" class="style34">7777, 7778, 7787, 7788, 28900, 28902 UDP</td>
-                  <td background="images/bg12.png" class="style34">2302, 2303 UDP</td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-              <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/duke3d.gif" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/shadow_warrior.jpg" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/blood.jpg" alt="" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Duke3D</td>
-                  <td background="images/bg11.png" class="style12">Shadow Warrior</td>
-                  <td background="images/bg12.png" class="style12">Blood</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">DUKE3D.GRP</td>
-                  <td background="images/bg11.png" class="style12">SW.GRP</td>
-                  <td background="images/bg12.png" class="style12">Blood.INI</td>
-                </tr>
-                <tr>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td class="style12"><a href="https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/releases/" target="_blank">NetDuke32.exe</a></td>
-                  <td class="style12"><a href="https://forums.duke4.net/topic/11211-voidsw-public-beta/" target="_blank" class="style9">VoidSW.exe</a></td>
-                  <td class="style12"><a href="https://github.com/clipmove/NotBlood" target="_blank" class="style9">NotBlood.exe</a></td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                  <td background="images/bg11.png" class="style34">Port#:</td>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">1025 UDP</td>
-                  <td background="images/bg11.png" class="style34">1025 UDP</td>
-                  <td background="images/bg12.png" class="style34">23513 UDP</td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-              <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
-                <tr>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/warsow.png" width="110" height="150" /></th>
-                  <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/Urbanterror.svg.png" alt="" width="110" height="150" /></th>
-                  <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/Xonotic.png" alt="" width="110" height="150" /></th>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                  <td background="images/bg11.png" class="style12">Game:</td>
-                  <td background="images/bg12.png" class="style12">Game:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Warsow</td>
-                  <td background="images/bg11.png" class="style12">Urban Terror</td>
-                  <td background="images/bg12.png" class="style12">Xonotic</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                  <td background="images/bg11.png" class="style12">Requirements:</td>
-                  <td background="images/bg12.png" class="style12">Requirements:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style12">Warsow</td>
-                  <td background="images/bg11.png" class="style12">UrbanTerror</td>
-                  <td background="images/bg12.png" class="style12">Xonotic</td>
-                </tr>
-                <tr>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                  <td class="style12">Engine:</td>
-                </tr>
-                <tr>
-                  <td class="style12"><a href="https://warsow.net/" target="_blank">Warsow.exe</a></td>
-                  <td class="style12"><a href="https://www.urbanterror.info/home/" target="_blank" class="style9">UrbanTerror.exe</a></td>
-                  <td class="style12"><a href="https://xonotic.org/" target="_blank" class="style9">Xonotic.exe</a></td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                  <td background="images/bg11.png" class="style34">Port#:</td>
-                  <td background="images/bg12.png" class="style34">Port#:</td>
-                </tr>
-                <tr>
-                  <td background="images/bg12.png" class="style34">27950 UDP</td>
-                  <td background="images/bg11.png" class="style34">27960 UDP</td>
-                  <td background="images/bg12.png" class="style34">26000 UDP</td>
-                </tr>
-              </table>
-              <p>&nbsp;</p>
-            </div>
-          <blockquote>
-            <blockquote>
-              <blockquote>
-                <p align="justify" class="style10"><img src="images/bg4.png" width="495" height="48" alt="" /></p>
-                <p align="justify" class="style10">&nbsp;</p>
-                <p align="justify" class="style35">[Service Rules]</p>
-                <p align="justify" class="style10">You will: Use Common Sense. You will NOT: Transmit via Project C any information, data, text, files, links, software, chat, content, communication or other materials and terms of expression that are offensive, racial, discriminating, unlawful, information or instructions concerning illegal activities, harmful, threatening, abusive, harassing, defamatory, obscene, or otherwise objectionable; Disrupt the normal flow of information on or through Project C or otherwise act in a manner that negatively affects other participants; Intentionally or unintentionally violate any applicable local, state, national or international law. Impersonation of any person, moderator, administrator, operator or any other kind of team member will not be tolerated!</p>
-                <p align="justify" class="style10">Project C staff may at any time discontinue any access to or on Project C due to violation of these rules.</p>
-                <p align="justify" class="style10"><img src="images/bg4.png" width="495" height="48" alt="" /><br />
-                </p>
-                <p align="justify" class="style35">[Service Risks]</p>
-                <p align="justify" class="style10">You acknowledge that there are certain risks inherent to the use of Project C. These include, but are not limited to, disclosure of confidential information (including personal details), the improper operation of Project C (such as failing to function or to function correctly), and the risk that third parties directly or impersonating themselves as someone they are not, will contact you or attempt to contact you as a result of Project C Team's provision of and/or your use of Project C. If you publish personal information, there is a possibility that third parties could harass you, attempt to contact you, and, try to harm you. Therefore, it is important that you carefully consider before disclosing and publishing personal information and that you understand that any such disclosure and publishing are made by you at your own risk.</p>
-                <p align="justify" class="style10">Due to the nature of Internet, computers, data flow, and other technical and economical practicalities, Project C as most computer data and Internet applications, is vulnerable to various security issues and hence should be considered unsecured. By using Project C and the Internet in general, you may be subject to various risks, including among others eavesdropping, sniffing, spoofing, forgery, spamming, &quot;imposture&quot;, tampering, breaking passwords, harassment, fraud, electronic trespassing, hacking, nuking, system contamination including without limitation, viruses, worms, Trojan horses, causing unauthorized, damaging or harmful access and/or retrieval of information and data on your computer and other forms of activity that may even be considered unlawful. Information received or delivered on and through Project C may be subject to other security or privacy hazards or may not reach its destination or reach an erroneous address or recipient. Project C is no different than other applications in this respect.</p>
-              </blockquote>
-            </blockquote>
-          </blockquote>
-          <p align="center">&nbsp;</p>
-          <p align="left" class="style10">&nbsp;</p>
-          <p align="center" class="style10"><a href="download.html" target="_self"><img src="images/download.png" width="220" height="61" alt="" /></a></p>
-          <p align="center" class="style10">&nbsp;</p>
-          <p align="center" class="style10">&nbsp;</p>
-        </blockquote>
-        </blockquote>
-    </blockquote>    </td>
-    <td>&nbsp;</td>
+    <th width="2" scope="col">&nbsp;</th>
+    <th height="21" colspan="2" scope="col">&nbsp;</th>
+    <th colspan="4" scope="col">&nbsp;</th>
+    <th scope="col">&nbsp;</th>
   </tr>
   <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" bgcolor="222222">&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <th scope="row">&nbsp;</th>
-    <td colspan="4" background="images/menu_back1.png" bgcolor="303030"><div align="right" class="style7 style9">Project-C Team 2024</div></td>
-    <td>&nbsp;</td>
+    <th width="2" scope="col">&nbsp;</th>
+    <th colspan="2" scope="col">&nbsp;</th>
+    <th colspan="4" scope="col">&nbsp;</th>
+    <th scope="col"><a href="download.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image29','','images/dl2.png',1)"><img src="images/dl1.png" name="Image29" width="175" height="75" border="0" id="Image29" /></a></th>
   </tr>
 </table>
+<div align="center">
+  <table width="798" height="25" border="0" align="center" bordercolor="#000000">
+    <tr>
+      <th width="13" height="21" scope="col">&nbsp;</th>
+      <th width="775" scope="col"><blockquote><span class="style10"><span class="style81">Not able to play those old games online? Then you've come to the right place!</span></span></blockquote></th>
+    </tr>
+  </table>
+  <table width="798" height="371" border="0" align="center" bordercolor="#000000">
+    <tr>
+      <th width="13" height="367" scope="col">&nbsp;</th>
+      <th width="775" scope="col"><blockquote>
+        <div align="left">
+          <p align="center" class="style10"><span class="style13"><img src="images/client_01.png" alt="" width="553" height="347" /></span></p>
+          <blockquote>
+            <blockquote>
+              <p align="left" class="style10"><span class="style83">Project-C Is a new lobby based interface which allows you to play all those good old games online, as well as chat, send messages to your buddies, and transfer files.</span></p>
+            </blockquote>
+          </blockquote>
+          <p align="center" class="style10">&nbsp;</p>
+        </div>
+          </blockquote></th>
+    </tr>
+  </table>
+  <p align="center">&nbsp;</p>
+  <blockquote><blockquote>
+          <div id="games">
+        </div>
+    <p align="center" class="style85"><a href="#games">Dozens of games are supported in Project-C, have a look:</a></p>
+    </blockquote>
+  </blockquote>
+  <div align="center">
+    <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/doom.jpg" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/doom2.jpg" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/heretic.jpg" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/hexen.jpg" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Doom</td>
+        <td background="images/bg11.png" class="style12">Doom2</td>
+        <td background="images/bg12.png" class="style12">Heretic</td>
+        <td background="images/bg11.png" class="style12">Hexen</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Doom.wad</td>
+        <td background="images/bg11.png" class="style12">Doom2.wad</td>
+        <td background="images/bg12.png" class="style12">Herertic.wad</td>
+        <td background="images/bg11.png" class="style12">Hexen.wad</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Engine:</td>
+        <td background="images/bg11.png" class="style12">Engine:</td>
+        <td background="images/bg12.png" class="style12">Engine:</td>
+        <td background="images/bg11.png" class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a> <a href="https://www.chocolate-doom.org/wiki/index.php/Downloads" target="_blank">Chcololate-Doom,</a> <a href="https://odamex.net/" target="_blank">Odamex</a></td>
+        <td background="images/bg11.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a> <a href="https://www.chocolate-doom.org/wiki/index.php/Downloads" target="_blank">Chcololate-Doom,</a> <a href="https://odamex.net/" target="_blank">Odamex</a></td>
+        <td background="images/bg12.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a> <a href="https://doomlegacy.sourceforge.net/" target="_blank">Doom Legacy,</a><a href="https://odamex.net/" target="_blank">Odamex</a></td>
+        <td background="images/bg11.png" class="style12"><a href="https://zdoom.org/downloads" target="_blank">ZDoom, Gzdoom,</a> <a href="https://zandronum.com/" target="_blank">Zandronum,</a><a href="https://odamex.net/" target="_blank">Odamex</a></td>
+      </tr>
+      <tr>
+        <td height="8" class="style10 style33">Port#:</td>
+        <td class="style10 style33">Port#:</td>
+        <td class="style10 style33">Port#:</td>
+        <td class="style10 style33">Port#:</td>
+      </tr>
+      <tr>
+        <td height="9"><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP</p>
+            <p class="style10 style33">Zandronum 10666 UDP</p>
+          <p class="style10 style33">Chcololate Doom 5232UDP</p>
+          <p class="style10 style33">Odamex 10667 UDP</p></td>
+        <td><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP </p>
+            <p class="style10 style33">Zandronum 10666 UDP</p>
+          <p class="style10 style33">Chcololate Doom 5232 UDP </p>
+          <p class="style10 style33">Odamex 10667 UDP</p></td>
+        <td><p class="style10 style33">ZDoom, Gzdoom, Doom Legacy 5029 UDP </p>
+            <p class="style10 style33">Zandronum 10666 UDP</p>
+          <p class="style10 style33">Odamex 10667 UDP</p></td>
+        <td><p class="style10 style33">ZDoom, Gzdoom 5029 UDP </p>
+            <p class="style10 style33">Zandronum 10666 UDP</p>
+          <p class="style10 style33">Odamex 10667 UDP</p></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th width="110" background="images/bg9.png" class="style12" scope="col"><img src="images/quake.jpg" width="110" height="150" /></th>
+        <th width="110" background="images/bg10.png" class="style12" scope="col"><img src="images/q2.gif" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/q3.gif" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/quake_4.jpg" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Game:</td>
+        <td background="images/bg10.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Quake</td>
+        <td background="images/bg10.png" class="style12">Quake2 </td>
+        <td background="images/bg11.png" class="style12">Quake3</td>
+        <td background="images/bg12.png" class="style12">Quake4</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Requirements:</td>
+        <td background="images/bg10.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Quake</td>
+        <td background="images/bg10.png" class="style12">Quake2</td>
+        <td background="images/bg11.png" class="style12">Quake3</td>
+        <td background="images/bg12.png" class="style12">Quake4</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Engine:</td>
+        <td background="images/bg10.png" class="style12">Engine:</td>
+        <td background="images/bg11.png" class="style12">Engine:</td>
+        <td background="images/bg12.png" class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12"><a href="https://hemebond.gitlab.io/darkplaces-www/" target="_blank">Darkplaces.exe</a></td>
+        <td background="images/bg10.png" class="style12"><a href="https://bethesda.net/en/game/quakeii" target="_blank">Quake2.exe</a></td>
+        <td background="images/bg11.png" class="style12"><p><a href="https://store.steampowered.com/app/2200/Quake_III_Arena/" target="_blank">Quake3.exe</a></p>
+            <p><a href="https://archive.org/details/QuakeIiiArenaDemo" target="_blank">Quake3Demo.exe</a></p></td>
+        <td background="images/bg12.png" class="style12"><p><a href="https://store.steampowered.com/agecheck/app/2210/" target="_blank">Quake4.exe</a></p>
+            <p><a href="https://www.moddb.com/games/quake-4/downloads/quake-4-demo" target="_blank">Quake4Demo.exe</a></p></td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style58">Port#:</td>
+        <td background="images/bg10.png" class="style58">Port#:</td>
+        <td background="images/bg11.png" class="style58">Port#:</td>
+        <td background="images/bg12.png" class="style58">Port#: </td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style58">26000 UDP</td>
+        <td background="images/bg10.png" class="style58">27910 UDP</td>
+        <td background="images/bg11.png" class="style58">27950 UDP</td>
+        <td background="images/bg12.png" class="style58">27650 UDP and TCP/IP for VoIP</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="458" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th width="110" background="images/bg9.png" class="style12" scope="col"><img src="images/wolfet.jpg" width="110" height="150" /></th>
+        <th width="110" background="images/bg10.png" class="style12" scope="col"><img src="images/doom3.gif" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/doom3OC.png" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/doom3RoE.jpg" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Game:</td>
+        <td background="images/bg10.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Wolfenstein - Enemy Territory</td>
+        <td background="images/bg10.png" class="style12">Doom3</td>
+        <td background="images/bg11.png" class="style12">Doom3 - Opencoop</td>
+        <td background="images/bg12.png" class="style12">Doom3 - RoE</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Requirements:</td>
+        <td background="images/bg10.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Wolf-ET</td>
+        <td background="images/bg10.png" class="style12">Doom3 Base</td>
+        <td background="images/bg11.png" class="style12">Doom3 Opencoop Mod</td>
+        <td background="images/bg12.png" class="style12"><p>Doom3 D3xp Expansion</p></td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12">Engine:</td>
+        <td background="images/bg10.png" class="style12">Engine:</td>
+        <td background="images/bg11.png" class="style12">Engine:</td>
+        <td background="images/bg12.png" class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style12"><a href="https://www.splashdamage.com/games/wolfenstein-enemy-territory/" target="_blank">ET.exe</a></td>
+        <td background="images/bg10.png" class="style12"><p><a href="https://store.steampowered.com/app/208200/DOOM_3/" target="_blank">Doom3.exe</a></p></td>
+        <td background="images/bg11.png" class="style12"><a href="https://www.moddb.com/mods/opencoop" target="_blank">Doom3/OC</a></td>
+        <td background="images/bg12.png" class="style12"><a href="https://store.steampowered.com/app/9070/DOOM_3_Resurrection_of_Evil/" target="_blank">Doom3.exe</a></td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style58">Port#:</td>
+        <td background="images/bg10.png" class="style58">Port#:</td>
+        <td background="images/bg11.png" class="style58">Port#:</td>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+      </tr>
+      <tr>
+        <td background="images/bg9.png" class="style58">27960 UDP</td>
+        <td background="images/bg10.png" class="style58">27666 UDP</td>
+        <td background="images/bg11.png" class="style58">27666 UDP</td>
+        <td background="images/bg12.png" class="style58">27666 UDP</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th background="images/bg12.png" class="style12" scope="col"><img src="images/utGOTY.jpg" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/ut2004.jpg" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/halo.jpg" alt="" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Unreal Tournament</td>
+        <td background="images/bg11.png" class="style12">UT2004</td>
+        <td background="images/bg12.png" class="style12">Halo Combat Evolved</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">UnrealTournament</td>
+        <td background="images/bg11.png" class="style12">UT2004</td>
+        <td background="images/bg12.png" class="style12">Halo and Dedicated Server</td>
+      </tr>
+      <tr>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td class="style12"><a href="https://steamcommunity.com/app/13240" target="_blank">UnrealTournament / UCC.exe</a></td>
+        <td><p class="style12"><a href="https://steamcommunity.com/app/13230#scrollTop=88" target="_blank" class="style9">UT2004.exe / UCC.exe</a></p></td>
+        <td class="style12"><a href="https://store.steampowered.com/app/1064221/Halo_Combat_Evolved_Anniversary/" target="_blank" class="style9">Halo.exe / </a><a href="https://ftp.zx.net.nz/pub/Game-Files/Halo/Dedicated-Server/" target="_blank">HaloDED</a></td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+        <td background="images/bg11.png" class="style58">Port#:</td>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">7777 UDP</td>
+        <td background="images/bg11.png" class="style58">7777, 7778, 7787, 7788, 28900, 28902 UDP</td>
+        <td background="images/bg12.png" class="style58">2302, 2303 UDP</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/duke3d.gif" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/shadow_warrior.jpg" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/blood.jpg" alt="" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Duke3D</td>
+        <td background="images/bg11.png" class="style12">Shadow Warrior</td>
+        <td background="images/bg12.png" class="style12">Blood</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">DUKE3D.GRP</td>
+        <td background="images/bg11.png" class="style12">SW.GRP</td>
+        <td background="images/bg12.png" class="style12">Blood.INI</td>
+      </tr>
+      <tr>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td class="style12"><a href="https://voidpoint.io/StrikerTheHedgefox/eduke32-csrefactor/-/releases/" target="_blank">NetDuke32.exe</a></td>
+        <td class="style12"><a href="https://forums.duke4.net/topic/11211-voidsw-public-beta/" target="_blank" class="style9">VoidSW.exe</a></td>
+        <td class="style12"><a href="https://github.com/clipmove/NotBlood" target="_blank" class="style9">NotBlood.exe</a></td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+        <td background="images/bg11.png" class="style58">Port#:</td>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">1025 UDP</td>
+        <td background="images/bg11.png" class="style58">1025 UDP</td>
+        <td background="images/bg12.png" class="style58">23513 UDP</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <table width="344" border="0" cellspacing="2" bordercolor="#000000" background="images/bg1.png" bgcolor="#333333">
+      <tr>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/warsow.png" width="110" height="150" /></th>
+        <th width="110" background="images/bg11.png" class="style12" scope="col"><img src="images/Urbanterror.svg.png" alt="" width="110" height="150" /></th>
+        <th width="110" background="images/bg12.png" class="style12" scope="col"><img src="images/Xonotic.png" alt="" width="110" height="150" /></th>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Game:</td>
+        <td background="images/bg11.png" class="style12">Game:</td>
+        <td background="images/bg12.png" class="style12">Game:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Warsow</td>
+        <td background="images/bg11.png" class="style12">Urban Terror</td>
+        <td background="images/bg12.png" class="style12">Xonotic</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+        <td background="images/bg11.png" class="style12">Requirements:</td>
+        <td background="images/bg12.png" class="style12">Requirements:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style12">Warsow</td>
+        <td background="images/bg11.png" class="style12">UrbanTerror</td>
+        <td background="images/bg12.png" class="style12">Xonotic</td>
+      </tr>
+      <tr>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+        <td class="style12">Engine:</td>
+      </tr>
+      <tr>
+        <td class="style12"><a href="https://warsow.net/" target="_blank">Warsow.exe</a></td>
+        <td class="style12"><a href="https://www.urbanterror.info/home/" target="_blank" class="style9">UrbanTerror.exe</a></td>
+        <td class="style12"><a href="https://xonotic.org/" target="_blank" class="style9">Xonotic.exe</a></td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+        <td background="images/bg11.png" class="style58">Port#:</td>
+        <td background="images/bg12.png" class="style58">Port#:</td>
+      </tr>
+      <tr>
+        <td background="images/bg12.png" class="style58">27950 UDP</td>
+        <td background="images/bg11.png" class="style58">27960 UDP</td>
+        <td background="images/bg12.png" class="style58">26000 UDP</td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+  </div>
+  <blockquote>
+    <blockquote>
+      <blockquote>
+       <div id="gamesetup">        </div>
+        <p align="justify" class="style10"><a href="#gamesetup" target="_self" class="style35">[Game Setup]</a></p>
+        <p align="justify" class="style35"><span class="style10"><img src="images/bg4.png" width="1064" height="10" alt="" /></span></p>
+        <p align="justify" class="style83 style88 style88 style88">Seting up your games in Project-C is fairly easy and straight forward. But since you're here and looking into it, lets get those games setup. Shall we?</p>
+        <p align="justify" class="style83 style89 style89 style89">The first thing that needs done to setup your games is adding its location:</p>
+        <p align="justify" class="style35">1. Add your game location and any other resources it needs in order to function correctly. Lets add your games location now:</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style83">Next we need to create a room so others will know you're wanting to play.</p>
+        <p align="justify" class="style35">2. Create a room to host your game in:</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style35">3. Setup a Multiplayer game:</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style35">4. Launch the game:</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style10">&nbsp;</p>
+        <p align="justify" class="style10">&nbsp;</p>       
+        <div id="servicerules">        </div>
+        <p align="justify" class="style35"><a href="#servicerules" target="_self">[Service Rules]</a></p>
+        <p align="justify" class="style35">&nbsp;</p>
+        <p align="justify" class="style35"><span class="style10"><img src="images/bg4.png" width="1064" height="11" alt="" /></span></p>
+
+        <p align="justify" class="style10">You will: Use Common Sense. You will NOT: Transmit via Project C any information, data, text, files, links, software, chat, content, communication or other materials and terms of expression that are offensive, racial, discriminating, unlawful, information or instructions concerning illegal activities, harmful, threatening, abusive, harassing, defamatory, obscene, or otherwise objectionable; Disrupt the normal flow of information on or through Project C or otherwise act in a manner that negatively affects other participants; Intentionally or unintentionally violate any applicable local, state, national or international law. Impersonation of any person, moderator, administrator, operator or any other kind of team member will not be tolerated!</p>
+        <p align="justify" class="style10">Project C staff may at any time discontinue any access to or on Project C due to violation of these rules.</p>
+        <p align="justify" class="style10"><img src="images/bg4.png" width="1064" height="10" alt="" /><br />
+        </p>
+        <div id="servicerisks">        </div>
+        <p align="justify" class="style35"><a href="#servicerisks" target="_self">[Service Risks]</a></p>
+        <p align="justify" class="style10">You acknowledge that there are certain risks inherent to the use of Project C. These include, but are not limited to, disclosure of confidential information (including personal details), the improper operation of Project C (such as failing to function or to function correctly), and the risk that third parties directly or impersonating themselves as someone they are not, will contact you or attempt to contact you as a result of Project C Team's provision of and/or your use of Project C. If you publish personal information, there is a possibility that third parties could harass you, attempt to contact you, and, try to harm you. Therefore, it is important that you carefully consider before disclosing and publishing personal information and that you understand that any such disclosure and publishing are made by you at your own risk.</p>
+        <p align="justify" class="style10">Due to the nature of Internet, computers, data flow, and other technical and economical practicalities, Project C as most computer data and Internet applications, is vulnerable to various security issues and hence should be considered unsecured. By using Project C and the Internet in general, you may be subject to various risks, including among others eavesdropping, sniffing, spoofing, forgery, spamming, &quot;imposture&quot;, tampering, breaking passwords, harassment, fraud, electronic trespassing, hacking, nuking, system contamination including without limitation, viruses, worms, Trojan horses, causing unauthorized, damaging or harmful access and/or retrieval of information and data on your computer and other forms of activity that may even be considered unlawful. Information received or delivered on and through Project C may be subject to other security or privacy hazards or may not reach its destination or reach an erroneous address or recipient. Project C is no different than other applications in this respect.</p>
+      </blockquote>
+    </blockquote>
+  </blockquote>
+  <p align="center">&nbsp;</p>
+  <p align="left" class="style10">&nbsp;</p>
+  <p align="center" class="style10">&nbsp;</p>
+  <blockquote><blockquote>
+    <p align="right">&nbsp;</p>
+      <p align="center"><a href="main.html" target="_top">Back to Top</a></p>
+      <p align="right">&nbsp;</p>
+      <p align="right">&nbsp;</p>
+      <p align="right">&nbsp;</p>
+      <p align="right" class="style58">&nbsp;</p>
+      <p align="right" class="style58">&nbsp;</p>
+      <p align="right" class="style58">&nbsp;</p>
+      <p align="right" class="style58"><em>~ Project-C Team</em></p>
+    </blockquote>
+  </blockquote>
+  <p>&nbsp;</p>
+</div>
+<p align="justify" class="style35"></p>
 </body>
 </html>
